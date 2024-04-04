@@ -1,0 +1,7 @@
+.workshopsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+    padding: 5% 10%;
+}

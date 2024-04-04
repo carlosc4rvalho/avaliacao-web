@@ -1,0 +1,149 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/*=============== VARIABLES CSS LIGHT AND DARK THEME ===============*/
+:root {
+  /*========== Colors ==========*/
+  --green: #2f9e41;
+  --red: #cd191e;
+  --black: #000;
+  --dark: #0d1117;
+  --white: #fff;
+  --light: #f5f5f5;
+
+  /*========== Font and typography ==========*/
+  --body-font: "Poppins", sans-serif;
+
+  /*========== Font Size ==========*/
+  --h1-font-size: 2.5rem;
+  --h2-font-size: 2.15rem;
+  --h3-font-size: 1.6rem;
+  --h4-font-size: 1.25rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.75rem;
+
+  /*========== Font weight ==========*/
+  --font-normal: 300;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  --font-bold: 800;
+}
+
+::selection {
+  background-color: var(--green);
+  color: var(--dark);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+:focus {
+  outline: none;
+}
+
+input, textarea, select, button {
+  touch-action: manipulation;
+}
+
+/*=============== RESET STYLE ===============*/
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: var(--body-font);
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  background-color: var(--white);
+}
+
+body {
+  background-color: var(--body-color);
+  font-size: var(--normal-font-size);
+  min-height: 100dvh;
+}
+
+h1 {
+  font-size: var(--h1-font-size);
+  font-weight: var(--font-semi-bold);
+}
+
+h2 {
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-semi-bold);
+}
+
+h3 {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+}
+
+h4 {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+}
+
+p {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-normal);
+}
+
+a {
+  color: var(--dark);
+}
+
+img {
+  cursor: pointer;
+  max-width: 100%;
+  max-height: auto;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+/*=============== RESPONSIVE TYPOGRAPHY ===============*/
+@media screen and (min-width: 768px) {
+  :root {
+    /*========== Font Size ==========*/
+    --h1-font-size: 3rem;
+    --h2-font-size: 2.25rem;
+    --h3-font-size: 1.8rem;
+    --h4-font-size: 1.25rem;
+    --h5-font-size: 1.1rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .8rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  :root {
+    /*========== Font Size ==========*/
+    --h1-font-size: 3.25rem;
+    --h2-font-size: 2.5rem;
+    --h3-font-size: 1.8rem;
+    --h4-font-size: 1.25rem;
+    --h5-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .8rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  :root {
+    /*========== Font Size ==========*/
+    --h1-font-size: 4.5rem;
+    --h2-font-size: 3rem;
+    --h3-font-size: 1.8rem;
+    --h4-font-size: 1.25rem;
+    --h5-font-size: 1.50rem;
+    --normal-font-size: 1.3rem;
+    --small-font-size: 1.1rem;
+  }
+}

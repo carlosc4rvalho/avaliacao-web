@@ -1,0 +1,58 @@
+.headerContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5%;
+}
+
+.logoIF,
+.navMenu,
+.btnMenuHamburger {
+    display: flex;
+    flex: 1;
+}
+
+.logoIF picture img {
+    max-width: 2.5rem;
+}
+
+.navMenu {
+    display: none;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+}
+
+.item a {
+    font-size: var(--font-size-normal);
+    font-weight: var(--font-medium);
+}
+
+.item:hover a {
+    color: var(--green);
+    transition: .2s;
+}
+
+.btnMenuHamburger {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (min-width: 768px) {
+    .logoIF picture img {
+        max-width: 3.5rem;
+    }
+
+    .navMenu {
+        display: flex;
+    }
+
+    .btnMenuHamburger {
+        display: none;
+    }
+}

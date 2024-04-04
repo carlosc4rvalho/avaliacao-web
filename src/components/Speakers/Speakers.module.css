@@ -1,0 +1,52 @@
+.speakersContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+    background-color: var(--light);
+    padding: 5% 10%;
+    gap: 3rem;
+}
+
+.speakersContainer > header {
+    text-align: center;
+}
+
+.speakersContent {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.speakersContent > div {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    gap: 1rem;
+}
+
+.speakersContent > div aside {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.speakersContainer > a {
+    text-align: center;
+    font-size: var(--h4-font-size);
+    font-weight: var(--font-medium);
+    background-color: var(--black);
+    color: var(--white);
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    max-width: 60%;
+}
+
+@media screen and (min-width: 768px) {
+    .speakersContent > div {
+        max-width: 25%;
+    } 
+}
