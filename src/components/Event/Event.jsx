@@ -2,7 +2,7 @@ import React from 'react'
 import styles from "./Event.module.css";
 import image from "../../assets/images/image.svg";
 import circleCheck from "../../assets/icons/circleCheck.svg";
-import partnerLogo from "../../assets/icons/partnerLogo.svg";
+import logoPartner from "../../assets/icons/logoPartner.svg";
 
 
 export default function Event() {
@@ -62,22 +62,22 @@ export default function Event() {
         <ul className={styles.ListPartnerships}>
           <li className={styles.item}>
             <picture>
-              <img src={partnerLogo} alt="paceiro do IFPR" />
+              <img src={logoPartner} alt="paceiro do IFPR" />
             </picture>
           </li>
           <li className={styles.item}>
             <picture>
-              <img src={partnerLogo} alt="paceiro do IFPR" />
+              <img src={logoPartner} alt="paceiro do IFPR" />
             </picture>
           </li>
           <li className={styles.item}>
             <picture>
-              <img src={partnerLogo} alt="paceiro do IFPR" />
+              <img src={logoPartner} alt="paceiro do IFPR" />
             </picture>
           </li>
           <li className={styles.item}>
             <picture>
-              <img src={partnerLogo} alt="paceiro do IFPR" />
+              <img src={logoPartner} alt="paceiro do IFPR" />
             </picture>
           </li>
         </ul>

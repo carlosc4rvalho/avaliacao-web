@@ -66,26 +66,6 @@ export default function Workshops() {
               </figure>
             </article>
           </li>
-          
-          <li className={styles.workshopItem}>
-            <article>
-              <header>
-                Oficina 2
-              </header>
-
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni in iure nam error iste autem. Amet, magnam in eius iste corporis, id esse eveniet eum expedita reiciendis consequatur fugit. Excepturi?
-              </p>
-
-              <figure>
-                <img src={profile} alt="Profile" width={65} />
-                <figcaption>
-                  <span>Professora Exemplo</span>
-                  <p>Doutora</p>
-                </figcaption>
-              </figure>
-            </article>
-          </li>
         </ul>
 
         <picture className={styles.arrow} onClick={handleNext}>

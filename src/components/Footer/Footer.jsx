@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "./Footer.module.css";
-import instagram from "../../assets/icons/instagram.svg"
-import facebook from "../../assets/icons/facebook.svg"
+import instagram from "../../assets/icons/instagramIcon.svg"
+import facebook from "../../assets/icons/facebookIcon.svg"
 
 export default function Footer() {
   return (
@@ -34,7 +34,7 @@ export default function Footer() {
         </p>
 
         <p>
-          IFPR Campus Ivaipora - Rua Max Arthur Greipel, nº 505 - Parque Industrial, Ivaiporã - PR, 86870-000
+          IFPR Campus Ivaiporã - Rua Max Arthur Greipel, nº 505 - Parque Industrial, Ivaiporã - PR, 86870-000
         </p>
       </section>
     </footer>
