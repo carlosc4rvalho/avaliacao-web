@@ -9,36 +9,13 @@ import Footer from "./components/Footer/Footer.jsx";
 import styles from "./App.module.css";
 
 function App() {
-  const workshopsData = [
-    {
-      title: "Oficina 1",
-      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus cumque temporibus dolorem aspernatur, vel totam? Earum, quibusdam. Esse, deleniti eaque! Fuga assumenda minus officia maxime officiis mollitia asperiores, doloribus dolorum.",
-      imageUrl: "https://via.placeholder.com/300",
-      professor: "Professora Exemplo",
-      degree: "Doutora"
-    },
-    {
-      title: "Oficina 2",
-      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus cumque temporibus dolorem aspernatur, vel totam? Earum, quibusdam. Esse, deleniti eaque! Fuga assumenda minus officia maxime officiis mollitia asperiores, doloribus dolorum.",
-      imageUrl: "https://via.placeholder.com/300",
-      professor: "Professor Exemplo",
-      degree: "Mestre"
-    },
-    {
-      title: "Oficina 3",
-      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus cumque temporibus dolorem aspernatur, vel totam? Earum, quibusdam. Esse, deleniti eaque! Fuga assumenda minus officia maxime officiis mollitia asperiores, doloribus dolorum.",
-      imageUrl: "https://via.placeholder.com/300",
-      professor: "Professor Exemplo",
-      degree: "Doutor"
-    }
-  ];
-
   return (
     <main className={styles.mainContainer}>
       <Header />
       <Home />
       <Event />
       <Speakers />
+      <Workshops />
       <Timeline />
       <Registration />
       <Footer />

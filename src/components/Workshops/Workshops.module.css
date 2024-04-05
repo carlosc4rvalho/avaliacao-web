@@ -1,7 +1,59 @@
 .workshopsContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100dvh;
-    padding: 5% 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  gap: 3rem;
+  padding: 0 10%;
+}
+
+.workshopsContainer header {
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-semi-bold);
+}
+
+.carouselSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  gap: 3rem;
+  max-width: 90%;
+}
+
+.workshopItem article {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 2rem;
+  border-radius: .5rem;
+  background-color: var(--light);
+  min-width: 100%;
+}
+
+.workshopItem header {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-semi-bold);
+}
+
+.workshopItem p {
+  max-width: 85%;
+}
+
+.workshopItem figure {
+  display: flex;
+  gap: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .workshopItem {
+    min-width: 45%;
+  }
 }
